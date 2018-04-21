@@ -1,0 +1,15 @@
+#symbol-lookup {
+    width: 200px;
+    height: 40px; 
+    font-size: 16px; 
+}
+
+.validation-warning {
+    color: red; 
+    font-size: 14px; 
+}
+
+.validation-success {
+    color: green; 
+    font-size: 14px; 
+}

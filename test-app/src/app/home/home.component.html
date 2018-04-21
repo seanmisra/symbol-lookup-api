@@ -1,0 +1,6 @@
+<p>
+  <input id='symbol-lookup' name='symbol-lookup' [(ngModel)]='symbolText' type='text' placeholder='Enter Symbol Value' (keyup)='checkSymbol()'>
+  <br><br>
+  <span class='validation-warning' *ngIf='!validValue && symbolText != ""'>Symbol name not found</span> 
+  <span class='validation-success' *ngIf='validValue && symbolText != ""'>{{ entityValue }}</span>
+</p>
